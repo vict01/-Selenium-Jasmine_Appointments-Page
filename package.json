@@ -1,0 +1,49 @@
+{
+    "name": "dates",
+    "version": "0.1.0",
+    "private": true,
+    "engines": {
+        "node": "~15.4.0",
+        "npm": "~7.0.15"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "unitTest": "react-scripts test",
+        "test": "jasmine",
+        "eject": "react-scripts eject"
+    },
+    "dependencies": {
+        "@testing-library/jest-dom": "^4.2.4",
+        "@testing-library/react": "^9.5.0",
+        "@testing-library/user-event": "^7.2.1",
+        "chromedriver": "^101.0.0",
+        "jasmine": "^4.1.0",
+        "log4js": "^6.4.6",
+        "node": "^15.4.0",
+        "npm": "^8.9.0",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "react-scripts": "^3.4.4",
+        "selenium-webdriver": "^4.1.2"
+    },
+    "devDependencies": {
+        "enzyme": "^3.11.0",
+        "enzyme-adapter-react-16": "^1.15.5"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
