@@ -1,4 +1,4 @@
-# Automation Engineer Test
+# Automation framework to test appointments page
 
 This project was created to test the appointments page.
 
